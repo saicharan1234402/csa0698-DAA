@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+char str[100] = "malayalam";
+char str1[100];
+strcpy(str1,str);
+printf(" string copied %s",str1);
+}
